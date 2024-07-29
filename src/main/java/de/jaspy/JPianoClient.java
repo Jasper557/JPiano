@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class JPianoClient implements ClientModInitializer {
 
     public static final EntityModelLayer PIANO_ENTITY_LAYER =
-            new EntityModelLayer(Identifier.of("piano_entity_layer"), "main");
+            new EntityModelLayer(Identifier.of("piano"), "main");
 
     @Override
     public void onInitializeClient() {
